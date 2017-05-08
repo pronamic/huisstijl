@@ -1,0 +1,40 @@
+body {
+	
+}
+
+figure ,
+figcaption {
+	display: inline-block;
+}
+
+figure {
+	background: #7f7f7f;
+
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0px 0px 25px #7f7f7f;
+	-moz-box-shadow: 0px 0px 25px #7f7f7f;
+	box-shadow: 0px 0px 25px #7f7f7f;
+
+	margin: 1em 0;
+	padding: 25px;
+}
+
+figcaption {
+	display: block;
+
+	color: #FFF;
+
+	text-align: center;
+}
+
+img.transparent {
+	background: #FFF url("transparent.gif");
+
+	border: 1px solid #7f7f7f;
+
+	padding: 20px;
+}
